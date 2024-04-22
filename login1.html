@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login1.css">
+    <title>Login</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Bitter:ital,wght@0,100..900;1,100..900&family=Overpass+Mono:wght@300..700&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    <style>
+        body{
+            width: auto;
+            background-image: url('Background.Lizay.png');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+              
+        }
+    
+    </style>
+</head>
+
+<!-- <body class="p-5 m-0 border-0"> -->
+<body>
+     <div class="container1">
+        <div class="section1">
+        <img src="userlogo.png" alt="logouser" class="userlogo"> 
+    </div>
+            
+                <div class="section2">
+            <h1>Login</h1>
+                </div>
+     <div class="section3 d-flex justify-content-left">
+        <form>
+         <div class="form-row">
+          <div class="form-group col-md-12">
+            <label for="Name">Name</label>
+            <input type="text" class="form-control" placeholder="Enter Your Name"  id="Name" >
+          </div>
+          <div class="form-group col-md-12">
+            <label for="Email">Email</label>
+            <input type="email" class="form-control" placeholder="Enter Your Email" id="Email">
+          </div>
+          <div class="form-group col-md-12">
+            <label for="Password">Password</label>
+            <input type="password" class="form-control" placeholder="Password" id="Password">
+          </div>
+          <div class="form-group col-md-12">
+            <label for="ConfirmPassword">Confirm Password</label>
+            <input type="password" class="form-control" placeholder="Confirm Your Password" id="ConfirmPassword">
+          </div>
+         </div>
+        
+          <div class="form-group col-md-10">
+            <label for="Country">Country</label>
+            <select id="Country" class="form-control">
+              <option selected>Choose...</option>
+              <option>Canada</option>
+              <option>Mexico</option>
+              <option>United States</option>
+            </select>
+          </div>
+          <div class="form-group">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="Checkbox">
+            <label class="form-check-label" for="Checkbox">
+              Remember me
+            </label>
+          </div>
+         </div>
+         <button type="submit" class="btn btn-primary">Sign in</button>
+        </form>
+      </div>
+    </div>
+    <div class="container2 d-flex justify-content-right">
+        <form>
+          <div class="form-group col-md-4 w-50">
+            <label for="Text Area"><h4>Leave a Comment</h4></label>
+            <textarea class="form-control-lg" placeholder="Message" id="Textarea" rows="10"></textarea>
+          </div>
+      </form>
+    </div>
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</html>

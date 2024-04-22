@@ -1,0 +1,37 @@
+
+#Container1{
+    color: #463f3a;
+    text-align: center;
+    background-color: #6f4e37;
+    animation: 3s  alternate slidein;
+
+}
+
+@keyframes slidein{
+    from{ 
+        margin-right: 100%;
+        width: 200%;
+    }
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+#Table1{
+    width: 30%;
+    margin-top: 40px;
+
+}
+#Container2{
+
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+footer > p{
+    text-align: end;
+    color: #463f3a;
+    margin-top: 20px;
+}
